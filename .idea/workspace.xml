@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1026911d-1613-4468-9a4e-72a9cde20972" name="Changes" comment="Save account operations">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/socgen/domain/OperationType.java" afterDir="false" />
+    <list default="true" id="1026911d-1613-4468-9a4e-72a9cde20972" name="Changes" comment="refactor">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/socgen/services/AccountStatementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/socgen/services/AccountStatementServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/domain/AccountValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/helpers/AccountValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/socgen/domain/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/socgen/domain/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -68,7 +66,7 @@
       <recent name="com.socgen.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountServiceImpTest">
+  <component name="RunManager" selected="JUnit.AccountStatementServiceImpTest">
     <configuration name="AccountServiceImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bank-core" />
       <extension name="coverage">
@@ -84,7 +82,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountServiceImpTest.shouldDepositAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountStatementServiceImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bank-core" />
       <extension name="coverage">
         <pattern>
@@ -93,14 +91,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.socgen.services" />
-      <option name="MAIN_CLASS_NAME" value="com.socgen.services.AccountServiceImpTest" />
-      <option name="METHOD_NAME" value="shouldDepositAmount" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.socgen.services.AccountStatementServiceImpTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountServiceImpTest.shouldWithdrawAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AccountStatementServiceImpTest.shouldReturnAccountHistoric" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bank-core" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +106,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.socgen.services" />
-      <option name="MAIN_CLASS_NAME" value="com.socgen.services.AccountServiceImpTest" />
-      <option name="METHOD_NAME" value="shouldWithdrawAmount" />
+      <option name="MAIN_CLASS_NAME" value="com.socgen.services.AccountStatementServiceImpTest" />
+      <option name="METHOD_NAME" value="shouldReturnAccountHistoric" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -120,7 +117,7 @@
       <module name="bank-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.socgen.helpers.*" />
+          <option name="PATTERN" value="com.socgen.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,29 +128,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.shouldThrowAccountNonSufficientFundExceptionIfBalanceIsLessThanWithdrawAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="socgen in bank-core" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bank-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.socgen.helpers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.socgen.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.socgen.domain.AccountTest" />
-      <option name="METHOD_NAME" value="shouldThrowAccountNonSufficientFundExceptionIfBalanceIsLessThanWithdrawAmount" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/socgen" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AccountServiceImpTest" />
-        <item itemvalue="JUnit.AccountServiceImpTest.shouldWithdrawAmount" />
-        <item itemvalue="JUnit.AccountServiceImpTest.shouldDepositAmount" />
+        <item itemvalue="JUnit.AccountStatementServiceImpTest" />
+        <item itemvalue="JUnit.AccountStatementServiceImpTest.shouldReturnAccountHistoric" />
+        <item itemvalue="JUnit.socgen in bank-core" />
         <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.AccountTest.shouldThrowAccountNonSufficientFundExceptionIfBalanceIsLessThanWithdrawAmount" />
+        <item itemvalue="JUnit.AccountServiceImpTest" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688999263203</updated>
       <workItem from="1688999264542" duration="6535000" />
-      <workItem from="1689052528448" duration="1323000" />
+      <workItem from="1689052528448" duration="4107000" />
     </task>
     <task id="LOCAL-00001" summary="Add Account deposit and withdraw">
       <option name="closed" value="true" />
@@ -192,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689005501289</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor">
+      <option name="closed" value="true" />
+      <created>1689054312106</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689054312106</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +199,7 @@
     <MESSAGE value="Add Account deposit and withdraw" />
     <MESSAGE value="." />
     <MESSAGE value="Save account operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Save account operations" />
+    <MESSAGE value="refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor" />
   </component>
 </project>
