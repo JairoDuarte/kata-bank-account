@@ -44,10 +44,17 @@ class AccountTest {
     }
 
     @Test
-    void shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessOrEqualToZero() {
-        assertThrows(AccountIllegalAmountException.class, () -> account.deposit(BigDecimal.valueOf(-10)));
+    void shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessThanZero() {
+        var exception = assertThrows(AccountIllegalAmountException.class, () -> account.deposit(BigDecimal.valueOf(-10)));
 
-        assertThrows(AccountIllegalAmountException.class, () -> account.deposit(BigDecimal.ZERO));
+        assertEquals("amount -10 is less or equal to 0, it must be more than 0", exception.getMessage());
+    }
+
+    @Test
+    void shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsEqualToZero() {
+        var exception =  assertThrows(AccountIllegalAmountException.class, () -> account.deposit(BigDecimal.ZERO));
+
+        assertEquals("amount 0 is less or equal to 0, it must be more than 0", exception.getMessage());
     }
 
     @Test
@@ -59,7 +66,9 @@ class AccountTest {
 
     @Test
     void shouldThrowAccountNonSufficientFundExceptionIfBalanceIsLessThanWithdrawAmount() {
-        assertThrows(AccountNonSufficientFundException.class, () -> account.withdraw(BigDecimal.valueOf(10)));
+       var exception = assertThrows(AccountNonSufficientFundException.class, () -> account.withdraw(BigDecimal.valueOf(10)));
+
+       assertEquals("Not enough found available, balance is less than 10", exception.getMessage());
     }
 
 }

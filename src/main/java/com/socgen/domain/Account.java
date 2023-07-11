@@ -8,6 +8,7 @@ import lombok.ToString;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 @Getter
@@ -15,6 +16,7 @@ import java.util.List;
 @ToString
 @EqualsAndHashCode
 public class Account {
+
     private final Long id;
 
     private BigDecimal balance;
@@ -24,7 +26,7 @@ public class Account {
     public Account(Long id) {
         this.id = id;
         balance = BigDecimal.ZERO;
-        operations = new ArrayList<>();
+        operations = new LinkedList<>();
     }
 
     public void deposit(BigDecimal amount) {

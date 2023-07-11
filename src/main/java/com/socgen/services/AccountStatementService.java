@@ -6,5 +6,5 @@ import com.socgen.domain.Operation;
 import java.util.List;
 
 public interface AccountStatementService {
-    public List<Operation> getHistoric(Account account);
+    List<Operation> getHistoric(Account account);
 }

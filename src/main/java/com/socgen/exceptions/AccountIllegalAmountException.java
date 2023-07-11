@@ -1,5 +1,10 @@
 package com.socgen.exceptions;
 
-public class AccountIllegalAmountException extends IllegalArgumentException {
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor
+public class AccountIllegalAmountException extends IllegalArgumentException {
+    public AccountIllegalAmountException(String message) {
+        super(message);
+    }
 }

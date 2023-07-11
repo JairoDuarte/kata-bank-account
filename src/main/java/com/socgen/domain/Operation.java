@@ -11,8 +11,15 @@ import java.time.LocalDateTime;
 @Builder
 @EqualsAndHashCode
 public class Operation {
+
+    private final Long id;
+
     private OperationType operationType;
+
     private LocalDateTime date;
+
     private BigDecimal amount;
+
     private BigDecimal balance;
+
 }
