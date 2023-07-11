@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1026911d-1613-4468-9a4e-72a9cde20972" name="Changes" comment="Refactor exceptions">
+    <list default="true" id="1026911d-1613-4468-9a4e-72a9cde20972" name="Changes" comment="Add readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
       <recent name="com.socgen.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
+  <component name="RunManager" selected="JUnit.socgen in bank-core">
     <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bank-core" />
       <extension name="coverage">
@@ -78,38 +79,6 @@
       <option name="PACKAGE_NAME" value="com.socgen.domain" />
       <option name="MAIN_CLASS_NAME" value="com.socgen.domain.AccountTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsEqualToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.socgen.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.socgen.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.socgen.domain.AccountTest" />
-      <option name="METHOD_NAME" value="shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsEqualToZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessOrEqualToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.socgen.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.socgen.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.socgen.domain.AccountTest" />
-      <option name="METHOD_NAME" value="shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessOrEqualToZero" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -146,13 +115,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="socgen in bank-core" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-core" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/socgen" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bank-core [test]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="test" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.socgen in bank-core" />
+        <item itemvalue="Maven.bank-core [test]" />
         <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.AccountTest.shouldThrowAccountNonSufficientFundExceptionIfBalanceIsLessThanWithdrawAmount" />
         <item itemvalue="JUnit.AccountTest.shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessThanZero" />
-        <item itemvalue="JUnit.AccountTest.shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsEqualToZero" />
-        <item itemvalue="JUnit.AccountTest.shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessOrEqualToZero" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688999263203</updated>
       <workItem from="1688999264542" duration="6535000" />
-      <workItem from="1689052528448" duration="8896000" />
+      <workItem from="1689052528448" duration="10509000" />
     </task>
     <task id="LOCAL-00001" summary="Add Account deposit and withdraw">
       <option name="closed" value="true" />
@@ -215,7 +217,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689069757828</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add readme">
+      <option name="closed" value="true" />
+      <created>1689070460525</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689070460525</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +238,7 @@
     <MESSAGE value="refactor" />
     <MESSAGE value="Add account statement service" />
     <MESSAGE value="Refactor exceptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor exceptions" />
+    <MESSAGE value="Add readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add readme" />
   </component>
 </project>
