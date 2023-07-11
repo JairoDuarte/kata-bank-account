@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1026911d-1613-4468-9a4e-72a9cde20972" name="Changes" comment="Add account statement service">
+    <list default="true" id="1026911d-1613-4468-9a4e-72a9cde20972" name="Changes" comment="Refactor exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Operation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/exceptions/AccountIllegalAmountException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/exceptions/AccountIllegalAmountException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/exceptions/AccountNonSufficientFundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/exceptions/AccountNonSufficientFundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/helpers/AccountValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/helpers/AccountValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/services/AccountStatementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/services/AccountStatementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/socgen/domain/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/socgen/domain/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2SNuGEDPMD55VaexBvKrKvB51dI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -169,7 +165,7 @@
       <option name="presentableId" value="Default" />
       <updated>1688999263203</updated>
       <workItem from="1688999264542" duration="6535000" />
-      <workItem from="1689052528448" duration="8242000" />
+      <workItem from="1689052528448" duration="8896000" />
     </task>
     <task id="LOCAL-00001" summary="Add Account deposit and withdraw">
       <option name="closed" value="true" />
@@ -211,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689057650928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Refactor exceptions">
+      <option name="closed" value="true" />
+      <created>1689069757828</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689069757828</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +227,7 @@
     <MESSAGE value="Save account operations" />
     <MESSAGE value="refactor" />
     <MESSAGE value="Add account statement service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add account statement service" />
+    <MESSAGE value="Refactor exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor exceptions" />
   </component>
 </project>
