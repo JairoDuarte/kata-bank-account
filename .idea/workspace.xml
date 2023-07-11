@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1026911d-1613-4468-9a4e-72a9cde20972" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="1026911d-1613-4468-9a4e-72a9cde20972" name="Changes" comment="Save account operations">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/socgen/domain/OperationType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/domain/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/socgen/domain/AccountValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/socgen/helpers/AccountValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/socgen/domain/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/socgen/domain/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,32 +36,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.socgen.domain" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/java/com/socgen" />
       <recent name="$PROJECT_DIR$/src/main/java/com/socgen" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.socgen.services" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest">
+  <component name="RunManager" selected="JUnit.AccountServiceImpTest">
+    <configuration name="AccountServiceImpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.socgen.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.socgen.services" />
+      <option name="MAIN_CLASS_NAME" value="com.socgen.services.AccountServiceImpTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceImpTest.shouldDepositAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.socgen.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.socgen.services" />
+      <option name="MAIN_CLASS_NAME" value="com.socgen.services.AccountServiceImpTest" />
+      <option name="METHOD_NAME" value="shouldDepositAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceImpTest.shouldWithdrawAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="bank-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.socgen.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.socgen.services" />
+      <option name="MAIN_CLASS_NAME" value="com.socgen.services.AccountServiceImpTest" />
+      <option name="METHOD_NAME" value="shouldWithdrawAmount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bank-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.socgen.domain.*" />
+          <option name="PATTERN" value="com.socgen.helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -62,43 +131,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessOrEqualToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.socgen.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.socgen.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.socgen.domain.AccountTest" />
-      <option name="METHOD_NAME" value="shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessOrEqualToZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AccountTest.shouldThrowAccountIllegalAmountExceptionIfWithdrawAmountIsLessOrEqualToZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.socgen.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.socgen.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.socgen.domain.AccountTest" />
-      <option name="METHOD_NAME" value="shouldThrowAccountIllegalAmountExceptionIfWithdrawAmountIsLessOrEqualToZero" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AccountTest.shouldThrowAccountNonSufficientFundExceptionIfBalanceIsLessThanWithdrawAmount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="bank-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.socgen.domain.*" />
+          <option name="PATTERN" value="com.socgen.helpers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,29 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.shouldWithdrawAmountFromBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bank-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.socgen.domain.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.socgen.domain" />
-      <option name="MAIN_CLASS_NAME" value="com.socgen.domain.AccountTest" />
-      <option name="METHOD_NAME" value="shouldWithdrawAmountFromBalance" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountServiceImpTest" />
+        <item itemvalue="JUnit.AccountServiceImpTest.shouldWithdrawAmount" />
+        <item itemvalue="JUnit.AccountServiceImpTest.shouldDepositAmount" />
         <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.AccountTest.shouldThrowAccountNonSufficientFundExceptionIfBalanceIsLessThanWithdrawAmount" />
-        <item itemvalue="JUnit.AccountTest.shouldThrowAccountIllegalAmountExceptionIfDepositAmountIsLessOrEqualToZero" />
-        <item itemvalue="JUnit.AccountTest.shouldThrowAccountIllegalAmountExceptionIfWithdrawAmountIsLessOrEqualToZero" />
-        <item itemvalue="JUnit.AccountTest.shouldWithdrawAmountFromBalance" />
       </list>
     </recent_temporary>
   </component>
@@ -144,11 +165,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688999263203</updated>
-      <workItem from="1688999264542" duration="2106000" />
+      <workItem from="1688999264542" duration="6535000" />
+      <workItem from="1689052528448" duration="1323000" />
     </task>
+    <task id="LOCAL-00001" summary="Add Account deposit and withdraw">
+      <option name="closed" value="true" />
+      <created>1689001687976</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689001687976</updated>
+    </task>
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1689001727045</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689001727045</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Save account operations">
+      <option name="closed" value="true" />
+      <created>1689005501289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689005501289</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add Account deposit and withdraw" />
+    <MESSAGE value="." />
+    <MESSAGE value="Save account operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save account operations" />
   </component>
 </project>

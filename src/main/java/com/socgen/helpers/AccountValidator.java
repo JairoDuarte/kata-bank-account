@@ -1,4 +1,4 @@
-package com.socgen.domain;
+package com.socgen.helpers;
 
 import com.socgen.exceptions.AccountIllegalAmountException;
 import com.socgen.exceptions.AccountNonSufficientFundException;

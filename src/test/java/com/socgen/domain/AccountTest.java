@@ -15,7 +15,7 @@ class AccountTest {
 
     @BeforeEach
     public void before() {
-        account = new Account(1L, BigDecimal.ZERO);
+        account = new Account(1L);
     }
 
     @Test
