@@ -16,3 +16,6 @@ No framework (only test framework and maven are allowed).
 
 The expected result is a domain implementation that meets the expressed needs.
 Don’t build an entire app, especially no UI, no persistence.
+
+### Usage
+mvn test
